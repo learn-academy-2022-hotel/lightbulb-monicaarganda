@@ -3,7 +3,9 @@ import React from "react"
 const LightSwitch = () => {
   return (
     <>
-      <div className="lightbulb"></div>
+      <div className="lightbulb" >
+        <h2>off</h2>
+      </div>
     </>
   )
 }

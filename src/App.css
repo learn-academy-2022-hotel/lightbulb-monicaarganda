@@ -3,7 +3,8 @@ h1 {
 }
 
 .lightbulb {
-  border: 2px solid black;
+  border: 3px solid black;
   width: 200px;
   height: 200px;
+  background-color: white;
 }
