@@ -2,31 +2,29 @@ import React, { useState } from "react"
 import "./App.css"
 import LightSwitch from "./components/LightSwitch"
 
-const App = () => {
+const App = (props) => {
   
-  const [lightSwitchStatus, setLightSwitchStatus] = useState("off")
+  // const [lightSwitchStatus, setLightSwitchStatus] = useState("off")
   
-  const [color, setColor ] = useState("white")
+  // const [color, setColor ] = useState("white")
 
-  const flipTheSwitch = () => {
-    if (lightSwitchStatus === "off") {
-      setLightSwitchStatus("on")
-      setColor("yellow")
-    } else if (lightSwitchStatus === "on") {
-      setLightSwitchStatus("off")
-      setColor("white")
-    }
-  }
+  // const flipTheSwitch = () => {
+  //   if (lightSwitchStatus === "off") {
+  //     setLightSwitchStatus("on")
+  //     setColor("yellow")
+  //   } else if (lightSwitchStatus === "on") {
+  //     setLightSwitchStatus("off")
+  //     setColor("white")
+  //   }
+  // }
   
   return (
     <>
       <body>
         <h1>Lightbulb <span>Challenge</span></h1>
-        <LightSwitch 
-        lightSwitchStatus={lightSwitchStatus} 
-        flipTheSwitch= {flipTheSwitch} 
-        color={color}
-        />
+        <LightSwitch />
+        <LightSwitch />
+        <LightSwitch />
       </body>
     </>
   )

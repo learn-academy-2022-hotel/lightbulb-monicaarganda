@@ -20,15 +20,18 @@ body {
   background-color: tan ;
 }
 
-.background-white {
+/* .background-white {
   background-color: white;
 }
 
 .background-yellow {
   background-color: yellow;
-}
+} */
 
 
 /* #ccab78 */
 /*   #c9ad81*/
 /* background-color: white; */
+/*   display: "flex";
+  flex-direction: "row";
+  flex-wrap: "wrap" */
