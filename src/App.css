@@ -1,9 +1,37 @@
 h1 {
   text-align: center;
+  color:rgb(37, 183, 37)
 }
-
+h1 span{
+  color: rgb(237, 7, 7)
+}
+h2 {
+  color: gray;
+}
 .lightbulb {
-  border: 2px solid black;
+  border: 3px solid black;
   width: 200px;
   height: 200px;
+  margin: auto;
+  text-align: center;
 }
+
+body {
+  background-color: tan ;
+}
+
+/* .background-white {
+  background-color: white;
+}
+
+.background-yellow {
+  background-color: yellow;
+} */
+
+
+/* #ccab78 */
+/*   #c9ad81*/
+/* background-color: white; */
+/*   display: "flex";
+  flex-direction: "row";
+  flex-wrap: "wrap" */
